@@ -43,7 +43,7 @@ $confirmationCode = "";				// Optional connection code asked for login with mini
 
 //// Language function
 
-$validLanguages = Array('en', 'fr', 'es');	// When adding languages, add a new entry here
+$validLanguages = Array('en', 'fr', 'es', 'it');	// When adding languages, add a new entry here
 $language = "en";				// May be superseeded by passing language parameter in URL
 
 //TODO: function t approach of assigning all strings is not very effective (all strings assigned on every run!)
@@ -177,7 +177,7 @@ $generalUseMessage_string = "Al ser un servicio gratuito, por favor <strong>resp
 $error_string = "Error";
 $datePrefix_string = "Hoy es";
 $welcome_string = "Bienvenido";
-$welcomeMessage_string = "hotelName le acerca internet gratuitamente.<br/> Está a unos clicks de acceder al servicio.";
+$welcomeMessage_string = "$hotelName le acerca internet gratuitamente.<br/> Está a unos clicks de acceder al servicio.";
 
 // UI field strings
 $roomNumber_string = "Número de habitación";
